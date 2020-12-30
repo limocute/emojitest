@@ -1,0 +1,11 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/.vs/Draw_FontExample
+/Draw_FontExample/.vs/Draw_FontExample/DesignTimeBuild
+/Draw_FontExample/bin/Debug/netcoreapp3.1
+/Draw_FontExample/obj
+/SampleBase/bin
+/SampleBase/obj
+/.vs
