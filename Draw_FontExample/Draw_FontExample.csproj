@@ -9,8 +9,19 @@
     <ProjectReference Include="..\SampleBase\SampleBase.csproj" />
   </ItemGroup>
 
+  <!-- Included, not embedded, as using File IO read -->
   <ItemGroup>
-    <EmbeddedResource Include="Fonts\**" />
+    <Folder Include="TtfFonts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontStashSharp" Version="0.8.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="TtfFonts\Segoe UI Emoji.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
